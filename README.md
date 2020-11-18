@@ -1,6 +1,7 @@
 # lifesigns
-The basic concept for this project is you start the Python script, put the ip address or site name you want to watch and let it run.  It pings the address and logs if it connects or not.  
+The basic concept for this project is you start the Python script, put the ip address or site name you want to watch and let it run.  It pings the address and logs if it connects or not.  I tried a few python modules for pinging a website and getting a response back.  I kept getting various module errors so finally went with a subprocess.popen method which has worked well enough.
 
-Settings:  I might put in delay prompt so you can change how often it pings with a low time check to help prevent DOS.
+11/18/2020:  
+I have v0.5 working you have an option to run a simple command line report for a time range or if there's any entries that are not connected.  If the sqllite file does not exist the script should auto create it in the folder the script is running in.
 
-Logging:  It'll be a SQLLITE database that I'll make a few easy to read reports or time range.
+
