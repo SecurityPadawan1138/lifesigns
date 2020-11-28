@@ -1,4 +1,5 @@
 # lifesigns
+This projects came about because my internet connection keeps cutting out.  The new problem is the cable modem status lights are all still showing connected.
 The basic concept for this project is you start the Python script, put the ip address or site name you want to watch and let it run.  It pings the address and logs if it connects or not.  I tried a few python modules for pinging a website and getting a response back.  I kept getting various module errors so finally went with a subprocess.popen method which has worked well enough.
 
 
@@ -11,4 +12,7 @@ git clone https://github.com/SecurityPadawan1138/lifesigns.git
 
 
 
+
+Upcoming Releases:
+11/27/2020:  Version: 1.5 will have better reporting.  Also I'll try to extract the ping latency or get a Python module working to extract it.
 
