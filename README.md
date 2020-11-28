@@ -14,5 +14,5 @@ git clone https://github.com/SecurityPadawan1138/lifesigns.git
 
 
 Upcoming Releases:
-11/27/2020:  Version: 1.0 will have better reporting.  Also I'll try to extract the ping latency or get a Python module working to extract it.
+11/27/2020:  Version: 1.0 will have better reporting.  Also I'll try to extract the ping latency or get a Python module for pinging to work and extract the latency.
 
