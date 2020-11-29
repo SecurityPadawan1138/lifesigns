@@ -1,7 +1,7 @@
 # lifesigns
-This projects came about because my internet connection keeps cutting out.  The problem is the cable modem status lights are all still showing connected.
-The basic concept for this project is you start the Python script, put the ip address or site name you want to watch and let it run.  It pings the address and logs if it connects or not.  I tried a few python modules for pinging a website and getting a response back.  I kept getting various module errors so finally went with a subprocess.popen method which has worked well enough.
-
+This projects came about because my internet connection keeps cutting out.  
+The new problem is the cable modem status lights are all still showing connected.
+The basic concept for this project is you start the Python script, put the router ip address and site name you want to watch and let it run.  It pings the address and logs if it connects or not.  When the connection drops again checking the logs should show any connection errors.
 
 11/18/2020:  
 I have v0.5 working you have an option to run a simple command line report for a time range or if there's any entries that are not connected.  The script uses sqlite3 file to store the entries and generate the reports.  If the sqllite file does not exist the script should auto create it in the folder the script is running in.
